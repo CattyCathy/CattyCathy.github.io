@@ -1,2 +1,1 @@
-let a = document.querySelector("h1");
-a.textContent="qwa";
+mygithublink.onclick = ()=>{location.href="https://github.com/CattyCathy"}
