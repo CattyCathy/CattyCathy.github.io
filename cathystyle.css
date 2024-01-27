@@ -14,16 +14,12 @@ h1
 {
     margin: 0;/*Necessary or the body won't stick to the border of the webview*/
 }
-a
+p
 {
     margin: auto auto;
     text-decoration-line: none;
 }
 /*Test*/
-p
-{
-    color: red;
-}
 xabx
 {
     color:green;
@@ -32,7 +28,7 @@ xabx
 {
     width: 100%;
     padding: 6px;
-    margin-bottom: 0;
+    margin-bottom: auto;
     background-color: #D6D6D6;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 0 40px 0px #000000;
@@ -55,6 +51,7 @@ xabx
     padding-top: 2em;
     width: 100%;
     height: 100%;
+    margin: auto;
     /*background-color: red;*/
     text-align: center;
 }
