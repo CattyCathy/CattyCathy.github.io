@@ -1,9 +1,74 @@
-/*BiliCraft Wiki Topic*/
-.bcwt{
-    width: 80%;
-    height: 200px;
-    background-color: aliceblue;
-    border-radius: 8px;
-    padding: 4px;
+header{
+    background-color: white;
+    height: 60px;
+    border-radius: 6px;
 }
 
+body{
+    min-height: 100vh;
+    margin: 0px;
+    background-image: linear-gradient(
+        90deg,
+        rgb(119 0 255 / 39%),
+        rgb(0 212 255 / 39%)
+    ); 
+}
+
+main{
+    height: auto;
+}
+
+/*BiliCraft Wiki Topic List*/
+.bcwtl{
+    /* display: grid; */
+    width: 80%;
+    position: inherit;
+    margin: auto;
+}
+
+/*BiliCraft Wiki Topic*/
+.bcwt{
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    margin: 32px 0px;
+    padding: 4px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.bcwt:hover{
+    height: 280px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 32px white;
+}
+
+.bcwt > h2{
+    margin-left: 32px;
+    font-size: 48px;
+    transition:inherit;
+    transition-property: all;
+
+}
+
+.bcwt:hover > h2{
+    font-size: 32px;
+    transition:inherit;
+    transition-property: all;
+}
+
+.bcwt > div{
+    opacity: 0;
+    margin-left: 64px;
+    transition:inherit;
+    transition-property: all;
+}
+
+.bcwt:hover > div{
+    opacity: 1;
+    margin-left: 64px;
+    transition:inherit;
+    transition-property: all;
+}
