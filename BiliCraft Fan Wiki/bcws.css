@@ -133,3 +133,11 @@ footer{
     background-position: 0px;
     background-size: cover;
 }
+
+#faction{
+    position:static;
+    background-image: url(faction.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+}
