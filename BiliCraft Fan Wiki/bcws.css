@@ -116,3 +116,11 @@ main{
     background-position: 0px;
     background-size: cover;
 }
+
+#machine{
+    position:static;
+    background-image: url(machine.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+}
