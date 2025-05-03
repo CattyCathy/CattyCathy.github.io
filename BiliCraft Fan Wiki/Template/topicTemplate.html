@@ -5,37 +5,49 @@
     <meta charset="utf-8" />
     <title>Topic name</title>
     <link rel="stylesheet" href="bcwst.css"/>
-
 </head>
 
 <body>
-    <header>
-        <iframe src = "../Global/header.html"></iframe>
+    <header id="headerx">
+        <script></script>
     </header>
 
     <main>
+        <div id="header-container">
+            <div class="components-loading">Loading header...</div>
+        </div>
+
         <div class="contctn">
-            <h2 class="tpct">标题</h2>
+            <!--主题标题-->
+            <h2 class="tpct">文章主题</h2>
+            <!--正文内容-->
             <div class="madv">
+                <!--示例-->
                 <p>正文</p>
+                <!--标题只能用h3 h4 h5 h6-->
+                <h3>小标题1</h3>
+                <p>小标题内容</p>
                 <div class="imgdv">
                     <img src="../introduction.png"
                     alt="图片描述">
-                    <h3>para</h3>
                     <div>
-                        <p>说明文字</p>
+                        <p>图片的说明文字</p>
                     </div>
                 </div>
-                <section><h1>ccc</h1></section>
-                <h2>parame</h2>
+                <h4>下一级标题</h4>
             </div>
+            <!--正文到这里结束-->
         </div>
         <div id="toc-container">
-            <script src="index.js"></script>
+            <script src="autoindex.js"></script>
             <div id="toc-title">目录</div>
             <div id="toc"></div>
           </div>
     </main>
-    <iframe src="../Global/footer.html"></iframe>
+
+    <div id="footer-container">
+        <div class="components-loading">Loading footer...</div>
+    </div>
+    <script src="../Global/headerfooter.js" defer></script>
 </body>
 </html>
