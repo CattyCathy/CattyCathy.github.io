@@ -1,10 +1,10 @@
 const COMPONENTS_CONFIG = {
     header: {
-      url: '../Global/header.html',
+      url: '/BiliCraft Fan Wiki/Global/header.html',
       target: '#header-container'
     },
     footer: {
-      url: '../Global/footer.html',
+      url: '/BiliCraft Fan Wiki/Global/footer.html',
       target: '#footer-container'
     }
   };
