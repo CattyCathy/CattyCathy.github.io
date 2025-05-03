@@ -18,6 +18,15 @@ main{
     height: auto;
 }
 
+footer{
+    background-color: #FFFFFFBB;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 16px;
+    transition-property: margin-right;
+    transition-duration: 0.3s;
+}
+
 /*BiliCraft Wiki Topic List*/
 .bcwtl{
     /* display: grid; */
