@@ -1,9 +1,12 @@
 /*BiliCraft Wiki Style - Topic*/
 
 header{
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: white;
-    height: 60px;
+    height: 64px;
     border-radius: 6px;
 }
 
@@ -78,3 +81,44 @@ main{
     size: auto;
     width: 100%;
 }
+
+
+#toc-container {
+    min-width: 160px;
+    max-width: 300px;
+    right: 8px;
+    top: 64px;
+    bottom: 16px;
+    position: fixed;
+    background: white;
+    padding: 15px;
+    /* border: 1px solid #DDDDDDFF; */
+    border-radius: 4px;
+
+    overflow-y: auto;
+  }
+  
+  .toc-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .toc-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .toc-item.active {
+    background: #2196F3;
+    color: white;
+  }
+  
+  .toc-item.h2 { margin-left: 20px; }
+  .toc-item.h3 { margin-left: 40px; }
+  .toc-item.h4 { margin-left: 60px; }
+  .toc-item.h5 { margin-left: 80px; }
+  .toc-item.h6 { margin-left: 100px; }
